@@ -1,21 +1,22 @@
 /* my defaults */
 
 * {
-  /* border: 0.1px solid red; */
-  max-width: 900px;
+  border: 0.1px solid red;
+  max-width: 900vw;
 }
 
 body {
   /* border: 0.1px solid black; */
   padding: 0 12px;
-  align-self: center;
+  /* align-self: center; */
 }
 
-/* .page-container {
+.page-container {
   border: 0.1px solid black;
-  margin: 0 12px;
-  width: 100%;
-} */
+  /* margin: 0 12px; */
+  width: 900px;
+  margin: auto;
+}
 
 header {
   padding: 16px 8px 16px 8px;
@@ -103,12 +104,12 @@ footer p {
   display: inline-block;
   border: 1px solid black;
   margin: 0 0 50pt 110pt;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: black;
   height: 22pt;
   width: 110pt;
   text-align: center;
-  padding: 5pt 0 0 0;
+  /* padding: 5pt 0 0 0; */
 }
 
 hr {
