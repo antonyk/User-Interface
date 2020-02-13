@@ -1,47 +1,121 @@
 /* my defaults */
 
-/* * {
-	border: 0.5px solid grey;
-	display: inline-block;
+* {
+  /* border: 0.1px solid red; */
+  max-width: 900px;
+}
+
+body {
+  /* border: 0.1px solid black; */
+  padding: 0 12px;
+  align-self: center;
+}
+
+/* .page-container {
+  border: 0.1px solid black;
+  margin: 0 12px;
+  width: 100%;
 } */
 
-.page-container {
-  /* margin: 0 auto; */
-  width: 100%;
-  max-width: 800pt;
+header {
+  padding: 16px 8px 16px 8px;
 }
 
 header nav {
+  /* border: 1px solid black; */
+  /* height: 40px; */
+}
+
+nav a {
   display: inline-block;
-  margin-top: 20pt;
+  text-decoration: none;
+  color: grey;
+  padding: 0 32pt 0 0;
+  /* background-color: yellow; */
 }
+
+nav img {
+  /* display: inline-block; */
+}
+
 .left-nav {
-  width: 70%;
+  /* border: 1px solid black; */
+  display: inline-block;
+  width: 670px;
 }
+
 .right-nav {
-  width: 20%;
-  text-align: right;
+  /* border: 1px solid black; */
+  display: inline-block;
+  width: 183px;
+}
+
+.nav-spacer {
+  display: inline-block;
+  width: 100%;
+  height: 8px;
 }
 
 .center-with-margin {
   margin: 0 auto;
 }
 
-.bg-test {
-  background-color: lightblue;
-}
-
-
 footer {
   display: block;
 }
 
 footer p {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
   margin: 20pt 0;
 }
 
 .two-col {
+  width: 100%;
+}
 
+.two-col-item {
+  display: inline-block;
+  width: 49%;
+  margin: 10pt 0;
+  padding: 0 5pt 0 0;
+}
+
+.three-col {
+  width: 100%;
+}
+
+.three-col-item {
+  display: inline-block;
+  width: 30%;
+  margin: 10pt 0;
+  padding: 0 5pt 0 0;
+}
+
+.hero-title {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+}
+
+.cta-button {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 0 0 50pt 110pt;
+  text-decoration: none;
+  color: black;
+  height: 22pt;
+  width: 110pt;
+  text-align: center;
+  padding: 5pt 0 0 0;
+}
+
+hr {
+  margin: 10pt 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
 }
