@@ -1,0 +1,47 @@
+/* my defaults */
+
+/* * {
+	border: 0.5px solid grey;
+	display: inline-block;
+} */
+
+.page-container {
+  /* margin: 0 auto; */
+  width: 100%;
+  max-width: 800pt;
+}
+
+header nav {
+  display: inline-block;
+  margin-top: 20pt;
+}
+.left-nav {
+  width: 70%;
+}
+.right-nav {
+  width: 20%;
+  text-align: right;
+}
+
+.center-with-margin {
+  margin: 0 auto;
+}
+
+.bg-test {
+  background-color: lightblue;
+}
+
+
+footer {
+  display: block;
+}
+
+footer p {
+  border: 1px solid red;
+  text-align: center;
+  margin: 20pt 0;
+}
+
+.two-col {
+
+}
